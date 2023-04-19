@@ -24,7 +24,7 @@ public class JavaMail{
         prop.put("mail.smtp.ssl.protocols", "TLSv1.2");
         
         String user = "avinashkariya05910";
-        String pass="czyavspxpmjajhyt";
+        String pass=//password;
         //session
         Session session = Session.getDefaultInstance(prop,new Authenticator() {
             @Override
